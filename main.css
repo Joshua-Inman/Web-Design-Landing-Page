@@ -1,0 +1,186 @@
+/* Global */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+h1 {
+	font-size: 48px;
+	color: #202427;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.btn-outline {
+	display: block;
+	text-decoration: none;
+	color: #2B9DFF;
+	border: 2px solid #2B9DFF;
+	border-radius: 6px;
+	width: 175px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.btn-filled:hover {
+	color: #2B9DFF;
+	border: 2px solid #2B9DFF;
+	background-color: white;
+}
+
+.btn-filled {
+	display: block;
+	text-decoration: none;
+	color: white;
+	background-color: #2B9DFF;
+	border: 2px solid #2B9DFF;
+	border-radius: 6px;
+	width: 175px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+/* Header */
+header {
+	height: 1000px;
+	min-height: 1000px;
+	padding: 0 5%;
+	background-image: url(images/background_header.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top right;
+}
+
+header h1 {
+	width: 65%;
+	padding: 2em 0 0 0;
+	font-size: 96px;
+}
+
+header p {
+	color: #2B9DFF;
+	font-size: 26px;
+	margin-bottom: 90px;
+	margin-top: 30px;
+}
+
+
+
+/* Call to Action */
+.call-to-action {
+	text-align: center;
+	padding: 0 5% 15em 5%;
+}
+
+.call-to-action h1, .call-to-action a {
+	display: inline-block;
+	margin: 0 60px;
+	vertical-align: middle;
+}
+
+/* Footer */
+footer {
+	padding: 40px 85px;
+	color: #2B9DFF;
+	background-color: #202427;
+}
+
+footer p, .footer-pages {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.footer-pages {
+	float: right;
+}
+
+.footer-pages a {
+	text-decoration: none;
+	color: #2B9DFF;
+	margin-left: 30px;
+}
+
+.footer-pages a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+	header {
+		height: 1000px;
+		min-height: 1000px;
+		padding: 0 5%;
+		background-image: url(images/mobile_background_header.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: bottom right;
+	}
+
+	header h1 {
+		width: 100%;
+		padding-top: 0.5em;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.footer-pages {
+		visibility: hidden;
+	}
+
+	footer p, .footer-pages {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	header {
+		height: 1050px;
+		min-height: 1050px;
+	}
+
+	header h1 {
+		font-size: 52px;
+		text-align: center;
+	}
+
+	header p {
+		font-size: 20px;
+		margin-bottom: 60px;
+		text-align: center;
+	}
+
+	header a {
+		margin: 0 auto;
+	}
+
+	footer {
+		padding: 25px 50px;
+	}
+}
